@@ -18,13 +18,21 @@ A nonprofit organization is seeking to help fight climate change. They first req
 ## Data
 
 The data for this project comes from a variety of datasets, which are linked at the bottom of this readme. They come from two main sources:
-Kaggle
+
+Kaggle:
+
 -Data/GlobalTemperatures.csv
+
 -Data/historical_emissions.csv
+
 -Data/gdp_growth.csv
-Our World In Data
+
+Our World In Data:
+
 -Data/world_population.csv
+
 -Data/oil_consumption.csv
+
 -Data/forest_area.csv
 
 The data used for time series modeling consisted of average monthly land temperatures from 1750 to 2015. This is 3,180 values in total spanning 250 years. The data used for regression modeling came from a variety of sources but was pared down to annual values from 1990-2015. These values include:
@@ -34,8 +42,6 @@ The data used for time series modeling consisted of average monthly land tempera
 -Global Population
 -Global Oil Consumption(TWH)
 -Global Forest Area(% of land area)
-
-![sentiment_dist](https://github.com/cmhollman/Phase_4_Project/blob/main/Images/brand_sent_dist.png)
 
 ## Methods
 
@@ -92,11 +98,17 @@ or review this [presentation](https://github.com/cmhollman/Capstone_Project/blob
 For additional info, contact Chris Hollman at [chollman91@gmail.com](mailto:chollman91@gmail.com)
 
 ## Data Links
+
 -[Temperatures](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalTemperatures.csv)
+
 -[GDP](https://www.kaggle.com/datasets/iamtushara/gdp-timeseries-data-for-various-countries?select=GDP_annual_growth_NEW.csv)
+
 -[Emissons](https://www.kaggle.com/datasets/ankanhore545/carbon-dioxide-emissions-of-the-world)
+
 -[Population](https://ourworldindata.org/world-population-growth)
+
 -[Oil Consumption](https://ourworldindata.org/grapher/oil-consumption-by-country)
+
 -[Forest Area](https://ourworldindata.org/deforestation)
 
 
