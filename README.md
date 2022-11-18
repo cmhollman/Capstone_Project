@@ -12,14 +12,14 @@ The goal of this project is to study the trends of our global climate. This will
 
 ## Business Problem
 
-A nonprofit organization is seeking to help fight climate change. They first require a clear view of the extent of the issue and some insights as to the largest contributing factors.
+An environmentally focused nonprofit organization is seeking data-focused insight to better understand climate change. This includes long term outlook and contributing factors.
 
 
 ## Data
 
 The data for this project comes from a variety of datasets, which are linked at the bottom of this readme. They come from two main sources:
 
-Kaggle:
+**Kaggle:
 
 -Data/GlobalTemperatures.csv
 
@@ -27,7 +27,7 @@ Kaggle:
 
 -Data/gdp_growth.csv
 
-Our World In Data:
+**Our World In Data:
 
 -Data/world_population.csv
 
@@ -36,11 +36,17 @@ Our World In Data:
 -Data/forest_area.csv
 
 The data used for time series modeling consisted of average monthly land temperatures from 1750 to 2015. This is 3,180 values in total spanning 250 years. The data used for regression modeling came from a variety of sources but was pared down to annual values from 1990-2015. These values include:
+
 -Average Global Temperatures(Farenheit)
+
 -Global CO2 Emmissions(MTCO2e)
+
 -Global GDP Growth Rate(%)
+
 -Global Population
+
 -Global Oil Consumption(TWH)
+
 -Global Forest Area(% of land area)
 
 ## Methods
@@ -69,6 +75,7 @@ The regression component of this project also revealed some interesting insights
 
 ## Conclusions
 Based on the results of the models, the following insights stand out:
+
 -**Temperature is trending upwards, especially after 1970** 
 This is the most significant trend change present in the dataset and coincides with the beginning of automated production lines and mass production.
 
