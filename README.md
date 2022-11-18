@@ -19,7 +19,7 @@ An environmentally focused nonprofit organization is seeking data-focused insigh
 
 The data for this project comes from a variety of datasets, which are linked at the bottom of this readme. They come from two main sources:
 
-**Kaggle:
+**Kaggle:**
 
 -Data/GlobalTemperatures.csv
 
@@ -27,7 +27,7 @@ The data for this project comes from a variety of datasets, which are linked at 
 
 -Data/gdp_growth.csv
 
-**Our World In Data:
+**Our World In Data:**
 
 -Data/world_population.csv
 
@@ -35,7 +35,9 @@ The data for this project comes from a variety of datasets, which are linked at 
 
 -Data/forest_area.csv
 
-The data used for time series modeling consisted of average monthly land temperatures from 1750 to 2015. This is 3,180 values in total spanning 250 years. The data used for regression modeling came from a variety of sources but was pared down to annual values from 1990-2015. These values include:
+The data used for time series modeling consisted of average monthly land temperatures from 1750 to 2015. This is 3,180 values in total spanning 250 years. 
+
+The data used for regression modeling came from a variety of sources but was pared down to annual values from 1990-2015. These values include:
 
 -Average Global Temperatures(Farenheit)
 
@@ -77,24 +79,30 @@ The regression component of this project also revealed some interesting insights
 Based on the results of the models, the following insights stand out:
 
 -**Temperature is trending upwards, especially after 1970** 
+
 This is the most significant trend change present in the dataset and coincides with the beginning of automated production lines and mass production.
 
 -**Correlations**
+
 There is significant positive correlation between average temperature, population, oil consumption. All three of these have strong negative correlations with forest area. These values suggest that the world population is growing and consuming more fossil fuels on a year to year basis, while forest are is decreasing. None of these neccesarily coincide with a larger GDP.
 
 -**Population, Oil Consumption, and Emissions are strong predictors of temperature**
+
 While association does not equate to causation, these factors can be used to effectively predict average yearly temperatures.
 
 ## Next Steps
 
 -**Further insight into emmissions**
-Since moslt likely don't immediately affect temperature, it would be interesting to explore different lag periods to discover any sort of delay of cumulative effect that emissions have on global temperatures. 
+
+Since the emissions don't have an instantaneous impact on temperature, it would be interesting to explore different lag periods to discover any sort of delay of cumulative effect that emissions may have. 
 
 -**Population Studies**
-Since population size seems to be a major contributor to rising global temperatures, comparing country population, growth rates, and consumption/emmissions of those countries may lead to ways to minimize the environmental impact of a growing population.
+
+Since population size seems to be a major contributor to rising global temperatures, comparing country population, growth rates, and consumption/emmissions of those countries may lead to ways to minimize the environmental impact of a growing population as well as indentifying which countries have environmental policies that should be emulated.
 
 -**Seasonality Studies**
-According to experts, the general trend of warming is likely to be accompanied by wider temperature swings and more extreme weather. Looking into shorter term weather data such as monthly highs, lows, and extreme weather events for smaller geograpgical areas would add more specific context to this study.
+
+According to experts, the general trend of warming is likely to be accompanied by wider temperature swings and more extreme weather. Looking into shorter term weather data such as monthly highs, lows, and extreme weather events for smaller geographical areas would add more specific context to this study as well as examples of the real world impact of climate change. 
 
 ## For More Information
 
