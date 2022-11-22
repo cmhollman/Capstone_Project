@@ -72,6 +72,8 @@ The regression component of this project also revealed some interesting insights
 
 ![cluster](https://github.com/cmhollman/Capstone_Project/blob/main/Images/clustermap.png)
 
+![cluster](https://github.com/cmhollman/Capstone_Project/blob/main/Images/regplots.png)
+
 ![f_scores](https://github.com/cmhollman/Capstone_Project/blob/main/Images/feature_importance.png)
 
 
